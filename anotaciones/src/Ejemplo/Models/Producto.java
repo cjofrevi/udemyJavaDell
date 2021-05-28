@@ -1,16 +1,27 @@
 package Ejemplo.Models;
 
+import Ejemplo.Init;
 import Ejemplo.JSONAtributo;
 
 import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class Producto {
 
-    @JSONAtributo(nombre = "descripcion")
+    @JSONAtributo()
     private String nombre;
-    @JSONAtributo
+    @JSONAtributo(nombre = "costo")
     private Long precio;
     private LocalDate fecha;
+
+    @Init
+    private void init(){
+       this.nombre =  Arrays.stream(nombre. split(" "))
+                .map(palabra -> palabra.substring(0, 1).toUpperCase()
+                        + palabra.substring(1).toLowerCase())
+                .collect(Collectors.joining(" "));
+    }
 
     public String getNombre() {
         return nombre;

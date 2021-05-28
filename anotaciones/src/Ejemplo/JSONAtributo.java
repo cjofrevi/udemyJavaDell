@@ -7,5 +7,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface JSONAtributo {
     String nombre() default "";
+    boolean capitalizar() default false;
 
 }
