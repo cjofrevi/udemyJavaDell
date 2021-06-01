@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="models.CuentasTest" time="3.265" tests="65" errors="1" skipped="7" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\cjofrevi\IdeaProjects\junit5_app\target\test-classes;C:\Users\cjofrevi\IdeaProjects\junit5_app\target\classes;C:\Users\Administrador\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\Administrador\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Administrador\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrador\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Administrador\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Administrador\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\Administrador\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Administrador\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\cjofrevi\AppData\Local\Temp\surefire9024953980337130405\surefirebooter170422351747835460.jar C:\Users\cjofrevi\AppData\Local\Temp\surefire9024953980337130405 2021-06-01T15-14-42_482-jvmRun1 surefire1643567593304504212tmp surefire_06137954252713774334tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\cjofrevi\IdeaProjects\junit5_app\target\test-classes;C:\Users\cjofrevi\IdeaProjects\junit5_app\target\classes;C:\Users\Administrador\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\Administrador\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Administrador\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrador\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Administrador\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Administrador\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\Administrador\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Administrador\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\cjofrevi"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="C:\Users\cjofrevi\IdeaProjects\junit5_app"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\cjofrevi\AppData\Local\Temp\surefire9024953980337130405\surefirebooter170422351747835460.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="cjofrevi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Administrador\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\cjofrevi\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="C:\Users\cjofrevi\IdeaProjects\junit5_app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\apache-maven-3.2.3-bin\apache-maven-3.2.3\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Users\cjofrevi\AppData\Local\Microsoft\WindowsApps;C:\Users\cjofrevi\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\bin;;C:\Users\cjofrevi\AppData\Local\Programs\Git\cmd;C:\Users\cjofrevi\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testDineroInsuficienteExceptionCuenta" classname="models.CuentasTest" time="0.038"/>
+  <testcase name="testSaldoCuentaDev" classname="models.CuentasTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at models.CuentasTest.testSaldoCuentaDev(CuentasTest.java:250)
+</skipped>
+  </testcase>
+  <testcase name="testSaldoCuentaDev2" classname="models.CuentasTest" time="0.015"/>
+  <testcase name="testRelacionBancoCuentas" classname="models.CuentasTest" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[1]" classname="models.CuentasTest" time="0.016"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[2]" classname="models.CuentasTest" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[3]" classname="models.CuentasTest" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[4]" classname="models.CuentasTest" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[5]" classname="models.CuentasTest" time="0"/>
+  <testcase name="pruebaTimeout2" classname="models.CuentasTest$timeoutTest" time="1.024"/>
+  <testcase name="pruebaTimeout" classname="models.CuentasTest$timeoutTest" time="1.001"/>
+  <testcase name="testTimeoutassertion" classname="models.CuentasTest$timeoutTest" time="1.018"/>
+  <testcase name="testENV" classname="models.CuentasTest$VariableAmbienteTest" time="0">
+    <skipped message="Environment variable [ENVIROMENT] does not exist"/>
+  </testcase>
+  <testcase name="testJava_Home" classname="models.CuentasTest$VariableAmbienteTest" time="0"/>
+  <testcase name="testCoreNumber" classname="models.CuentasTest$VariableAmbienteTest" time="0"/>
+  <testcase name="imprimirVariablesAmbiente" classname="models.CuentasTest$VariableAmbienteTest" time="0.018"/>
+  <testcase name="testSoloUsername" classname="models.CuentasTest$systemPropertyTest" time="0"/>
+  <testcase name="testsolo64" classname="models.CuentasTest$systemPropertyTest" time="0"/>
+  <testcase name="testDev" classname="models.CuentasTest$systemPropertyTest" time="0">
+    <skipped message="System property [ENV] does not exist"/>
+  </testcase>
+  <testcase name="testNo64" classname="models.CuentasTest$systemPropertyTest" time="0">
+    <skipped message="System property [os.arch] with value [amd64] does not match regular expression [.*32.*]"/>
+  </testcase>
+  <testcase name="ImprimirSystemProperties" classname="models.CuentasTest$systemPropertyTest" time="0.016"/>
+  <testcase name="testJavaVersion" classname="models.CuentasTest$systemPropertyTest" time="0"/>
+  <testcase name="soloJDK15" classname="models.CuentasTest$JavaVersionTest" time="0">
+    <skipped message="Disabled on JRE version: 1.8.0_271"/>
+  </testcase>
+  <testcase name="nooJDK15" classname="models.CuentasTest$JavaVersionTest" time="0"/>
+  <testcase name="soloJDK8" classname="models.CuentasTest$JavaVersionTest" time="0"/>
+  <testcase name="testSoloLinuxMax" classname="models.CuentasTest$SistemaOperativoTEST" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testSoloWindows" classname="models.CuentasTest$SistemaOperativoTEST" time="0"/>
+  <testcase name="testNowindows" classname="models.CuentasTest$SistemaOperativoTEST" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testCrebitoCuenta" classname="models.CuentasTest$CuentaOperacionesTestValueSource" time="0"/>
+  <testcase name="testDebitoCuenta{String}[1]" classname="models.CuentasTest$CuentaOperacionesTestValueSource" time="0"/>
+  <testcase name="testDebitoCuenta{String}[2]" classname="models.CuentasTest$CuentaOperacionesTestValueSource" time="0"/>
+  <testcase name="testDebitoCuenta{String}[3]" classname="models.CuentasTest$CuentaOperacionesTestValueSource" time="0"/>
+  <testcase name="testDebitoCuenta{String}[4]" classname="models.CuentasTest$CuentaOperacionesTestValueSource" time="0"/>
+  <testcase name="testDebitoCuenta{String}[5]" classname="models.CuentasTest$CuentaOperacionesTestValueSource" time="0"/>
+  <testcase name="testDebitoCuenta{String}[6]" classname="models.CuentasTest$CuentaOperacionesTestValueSource" time="0"/>
+  <testcase name="testTransfeririDineroCuentas" classname="models.CuentasTest$CuentaOperacionesTestValueSource" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[1]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[2]" classname="models.CuentasTest$ParametrizedTest" time="0">
+    <failure message="expected: &lt;maria&gt; but was: &lt;Maria&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvSource2(CuentasTest.java:136)
+]]></failure>
+    <system-out><![CDATA[250 - 200
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[3]" classname="models.CuentasTest$ParametrizedTest" time="0.015">
+    <failure message="expected: &lt;Chibo&gt; but was: &lt;Chino&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Chibo> but was: <Chino>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvSource2(CuentasTest.java:136)
+]]></failure>
+    <system-out><![CDATA[300 - 300
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[4]" classname="models.CuentasTest$ParametrizedTest" time="0">
+    <failure message="expected: &lt;Miki&gt; but was: &lt;Mili&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Miki> but was: <Mili>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvSource2(CuentasTest.java:136)
+]]></failure>
+    <system-out><![CDATA[510 - 500
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[5]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String, String, String}[6]" classname="models.CuentasTest$ParametrizedTest" time="0">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvSource2(CuentasTest.java:137)
+]]></failure>
+    <system-out><![CDATA[1000 - 1000
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[1]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[2]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[3]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[4]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[5]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[6]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[1]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[2]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[3]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[4]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[5]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[6]" classname="models.CuentasTest$ParametrizedTest" time="0.016"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[7]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[1]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[2]" classname="models.CuentasTest$ParametrizedTest" time="0">
+    <failure message="expected: &lt;maria&gt; but was: &lt;Maria&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvFileSource2(CuentasTest.java:147)
+]]></failure>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[3]" classname="models.CuentasTest$ParametrizedTest" time="0">
+    <failure message="expected: &lt;Chibo&gt; but was: &lt;Chino&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Chibo> but was: <Chino>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvFileSource2(CuentasTest.java:147)
+]]></failure>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[4]" classname="models.CuentasTest$ParametrizedTest" time="0">
+    <failure message="expected: &lt;Miki&gt; but was: &lt;Mili&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Miki> but was: <Mili>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvFileSource2(CuentasTest.java:147)
+]]></failure>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[5]" classname="models.CuentasTest$ParametrizedTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[6]" classname="models.CuentasTest$ParametrizedTest" time="0.016"/>
+  <testcase name="testDebitoCuentaMethodSource{String}" classname="models.CuentasTest$ParametrizedTest" time="0.016">
+    <error message="Could not find method [montoList] in class [models.CuentasTest$ParametrizedTest]" type="org.junit.platform.commons.JUnitException">org.junit.platform.commons.JUnitException: Could not find method [montoList] in class [models.CuentasTest$ParametrizedTest]
+</error>
+  </testcase>
+  <testcase name="testSaldoCuenta" classname="models.CuentasTest$CuentaTestNombreSaldo" time="0"/>
+  <testcase name="testReferenciaCuenta" classname="models.CuentasTest$CuentaTestNombreSaldo" time="0"/>
+  <testcase name="testNombreCuenta" classname="models.CuentasTest$CuentaTestNombreSaldo" time="0"/>
+</testsuite>

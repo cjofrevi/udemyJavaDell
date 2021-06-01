@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: models.CuentasTest
+-------------------------------------------------------------------------------
+Tests run: 65, Failures: 7, Errors: 1, Skipped: 7, Time elapsed: 3.265 s <<< FAILURE! - in models.CuentasTest
+testDebitoCuentaCsvSource2{String, String, String, String}[2]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvSource2(CuentasTest.java:136)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[3]  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Chibo> but was: <Chino>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvSource2(CuentasTest.java:136)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[4]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Miki> but was: <Mili>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvSource2(CuentasTest.java:136)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[6]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvSource2(CuentasTest.java:137)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[2]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvFileSource2(CuentasTest.java:147)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[3]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Chibo> but was: <Chino>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvFileSource2(CuentasTest.java:147)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[4]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Miki> but was: <Mili>
+	at models.CuentasTest$ParametrizedTest.testDebitoCuentaCsvFileSource2(CuentasTest.java:147)
+
+testDebitoCuentaMethodSource{String}  Time elapsed: 0.016 s  <<< ERROR!
+org.junit.platform.commons.JUnitException: Could not find method [montoList] in class [models.CuentasTest$ParametrizedTest]
+
