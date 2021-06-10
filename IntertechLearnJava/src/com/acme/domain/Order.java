@@ -1,3 +1,7 @@
+package com.acme.domain;
+
+import com.acme.utils.MyDate;
+
 public class Order {
 	MyDate orderDate;
 	double orderAmount = 0.00;
@@ -5,7 +9,7 @@ public class Order {
 	String product;
 	int quantity;
 
-	static double taxRate = 0.05;
+	public static double taxRate = 0.05;
 	
 	public Order(MyDate d, double amt, String c, String p, int q){
 		orderDate=d;
