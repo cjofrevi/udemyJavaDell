@@ -34,6 +34,29 @@ public class Order {
 		return orderAmount * Order.taxRate;
 	}
 
+	public char jobSize( ){
+
+		if(this.quantity <= 25){
+			return 'S';
+		}else if(this.quantity >=26 && this.quantity<=75){
+			return 'M';
+		}
+		else if(this.quantity >=27 && this.quantity<=150){
+			return 'L';
+		}
+		else{
+			return 'X';
+		}
+	}
+
+	public double computeTotal(){
+
+		//Order total = order amount – discount (if applicable) + tax (if
+		//applicable)
+
+		return 0.0;
+	}
+
 
 	public String toString(){
 		return quantity + " ea. " + product + " for " + customer; 

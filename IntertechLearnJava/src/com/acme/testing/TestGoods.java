@@ -1,4 +1,4 @@
-
+package com.acme.testing;
 
 public class TestGoods {
 
