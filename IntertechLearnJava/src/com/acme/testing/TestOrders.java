@@ -14,9 +14,10 @@ public class TestOrders {
 
 		MyDate date2 = new MyDate(4,10,2008);
 		Order balloons = new Order(date2, 1000.00, "Bugs Bunny", "Balloon", 125);
+		balloons.setQuantity(-200);
 
-		System.out.println(anvil);
-		System.out.println(balloons);
+//		System.out.println(anvil);
+//		System.out.println(balloons);
 
 		System.out.println("the tax rate is currently: " + Order.taxRate);
 		Order.computeTaxOn(3000.00);
@@ -28,6 +29,11 @@ public class TestOrders {
 		Order.computeTaxOn(3000.00);
 		anvil.computeTax();
 		balloons.computeTax();
+
+		System.out.println("The total bill for: " + anvil + " is " +
+				anvil.computeTotal());
+		System.out.println("The total bill for: " + balloons + " is " +
+				balloons.computeTotal());
 
 	}
 
