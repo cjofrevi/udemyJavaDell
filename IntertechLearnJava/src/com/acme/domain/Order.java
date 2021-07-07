@@ -6,12 +6,12 @@ public class Order {
 	private MyDate orderDate;
 	private double orderAmount = 0.00;
 	private String customer;
-	private String product;
+	private Product product;
 	private int quantity;
 
 	public static double taxRate = 0.05;
 	
-	public Order(MyDate d, double amt, String c, String p, int q){
+	public Order(MyDate d, double amt, String c, Product p, int q){
 		orderDate=d;
 
 		orderAmount=amt;
@@ -55,11 +55,11 @@ public class Order {
 		this.customer = customer;
 	}
 
-	public String getProduct() {
+	public Product getProduct() {
 		return product;
 	}
 
-	public void setProduct(String product) {
+	public void setProduct(Product product) {
 		this.product = product;
 	}
 

@@ -1,5 +1,7 @@
 package com.acme.utils;
 
+import java.util.Objects;
+
 public class MyDate {
 
     private byte day;
@@ -84,5 +86,18 @@ public class MyDate {
     @Override
     public String toString() {
         return  month + "/"+ day +"/" + year;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        MyDate myDate = (MyDate) o;
+        return day == myDate.day && year == myDate.year && month == myDate.month;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(day, year, month);
     }
 }
